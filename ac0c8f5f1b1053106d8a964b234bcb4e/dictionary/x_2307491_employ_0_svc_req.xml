@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a8833f7e1624fd59835e6bb20f6ed10" label="Employee Service Request" name="x_2307491_employ_0_svc_req" type="collection">
+        <element label="Assigned To" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Fulfillment Notes" max_length="4000" name="fulfillment_notes" type="multi_two_lines"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" name="number" type="string"/>
+        <element label="Priority" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Request Type" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offboarding" sequence="4" value="offboarding"/>
+                <element inactive_on_update="false" label="Equipment" sequence="2" value="equipment"/>
+                <element inactive_on_update="false" label="General" sequence="5" value="general"/>
+                <element inactive_on_update="false" label="Access Request" sequence="1" value="access_request"/>
+                <element inactive_on_update="false" label="Onboarding" sequence="3" value="onboarding"/>
+            </choice>
+        </element>
+        <element default="draft" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="5" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="cancelled"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+            </choice>
+        </element>
+        <element label="Due Date" name="due_date" type="glide_date_time"/>
+        <element label="Approver" name="approver" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element display="true" label="Short Description" mandatory="true" max_length="200" name="short_description" type="string"/>
+        <element label="Requested By" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="multi_two_lines"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

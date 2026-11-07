@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 15:11:31</sys_updated_on>
         <table>x_2307491_employ_0_tech_iss</table>
-        <test display_value="">ec61bb2cfe0249c294cc795c4c5daad4</test>
+        <test display_value="ESP - ACL: IT Role Can Update Tech Issue">ec61bb2cfe0249c294cc795c4c5daad4</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

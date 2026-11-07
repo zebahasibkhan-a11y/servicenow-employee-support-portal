@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Employee role - can submit and track own incidents, service requests, and technical issues</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>tCxG/rCm8X6TE+LLOeZT7/ubzlpbUlCsuDNdyDvWrgo=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_2307491_employ_0.employee</name>

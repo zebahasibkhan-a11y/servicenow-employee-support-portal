@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ea89a787e9154feb9fdf9fdb30edf059" sys_domain="global" table="x_2307491_employ_0_svc_req" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e457b21a79a49028c3facc98f9dd4fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2307491_employ_0_svc_req" name="x_2307491_employ_0_svc_req" sys_domain="global" view="Default view">ea89a787e9154feb9fdf9fdb30edf059</sys_ui_form>
+            <sys_ui_section caption="Employee Service Request" display_value="Employee Service Request" name="x_2307491_employ_0_svc_req" sys_domain="global" view="Default view">fec880da4ad742d09e405c8ade97815b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2307491_employ_0_svc_req</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 12:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea89a787e9154feb9fdf9fdb30edf059</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2307491_employ_0_svc_req</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ea89a787e9154feb9fdf9fdb30edf059</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 12:56:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 14:12:12</sys_updated_on>
         <table>x_2307491_employ_0_svc_req</table>
-        <ui_policy display_value="">c93bfb569f7143b0afd06d330e1031d3</ui_policy>
+        <ui_policy display_value="Lock fields when request is completed or cancelled">c93bfb569f7143b0afd06d330e1031d3</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

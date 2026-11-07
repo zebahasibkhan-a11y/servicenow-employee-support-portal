@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 14:12:11</sys_updated_on>
         <table>x_2307491_employ_0_svc_req</table>
-        <ui_policy display_value="">dc63cfe653514701b0b525b9dd4d75a4</ui_policy>
+        <ui_policy display_value="Require due date for onboarding and offboarding">dc63cfe653514701b0b525b9dd4d75a4</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

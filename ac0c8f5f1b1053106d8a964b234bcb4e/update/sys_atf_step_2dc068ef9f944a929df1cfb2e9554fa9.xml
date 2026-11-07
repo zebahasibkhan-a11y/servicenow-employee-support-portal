@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 15:11:27</sys_updated_on>
         <table/>
-        <test display_value="">ec266ded86a04ec7a15243d15bef88cb</test>
+        <test display_value="ESP - Inc: Prevent Closed Update (positive)">ec266ded86a04ec7a15243d15bef88cb</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

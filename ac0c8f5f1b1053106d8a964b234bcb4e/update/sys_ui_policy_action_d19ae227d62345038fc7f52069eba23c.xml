@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 14:12:13</sys_updated_on>
         <table>x_2307491_employ_0_it_inc</table>
-        <ui_policy display_value="">c6b0ab76c67845f2bef1c02a35ea57ce</ui_policy>
+        <ui_policy display_value="Show resolution fields when resolved or closed">c6b0ab76c67845f2bef1c02a35ea57ce</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>true</visible>

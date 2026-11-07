@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 14:12:13</sys_updated_on>
         <table>x_2307491_employ_0_tech_iss</table>
-        <ui_policy display_value="">e4b43991c20d4aa89574543aeb72dd49</ui_policy>
+        <ui_policy display_value="Lock fields when technical issue is closed">e4b43991c20d4aa89574543aeb72dd49</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>

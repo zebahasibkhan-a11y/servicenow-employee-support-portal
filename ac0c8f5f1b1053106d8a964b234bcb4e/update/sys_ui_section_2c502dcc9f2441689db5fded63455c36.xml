@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="IT Incident" section_id="2c502dcc9f2441689db5fded63455c36" sys_domain="global" table="x_2307491_employ_0_it_inc" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>96022dce08334697902e7bc5eb7e7e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>1f462e93ed6942f4a8c767a67e727f25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>5b54a3223f794ba0a567f08796c610b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>d9e815bd10a24a96939df83200d83740</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>283d214bbd7c4f98ab935bd8d84b5559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>1c3c7e635f884e5fa327d3c1f1e2cd75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>16ea148fd8dc479a8141b7dbbc1c1ed0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>03fd53495de741f69fd170d03400151a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>4785571ee0b44c22ad72572731282e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>affected_system</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>7ac9a4f724dd4d62b496cb74377c06ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>bf080547f76b4408ac657603f5898479</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>42371ee57b104d74945c0f7a92ff0d5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>993a78befb37450bb0bcf653e50a068d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>7f1107f2d8ed4d2f86277597f18ae2d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_notes</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 15:11:56</sys_created_on>
+            <sys_id>9eac841179024cd88ab13c73e53a9aba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Incident" display_value="IT Incident" name="x_2307491_employ_0_it_inc" sys_domain="global" view="Default view">2c502dcc9f2441689db5fded63455c36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 15:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>IT Incident</caption>
+            <header>false</header>
+            <name>x_2307491_employ_0_it_inc</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-07 12:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c502dcc9f2441689db5fded63455c36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2307491_employ_0_it_inc</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+            <sys_update_name>sys_ui_section_2c502dcc9f2441689db5fded63455c36</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-07 12:56:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

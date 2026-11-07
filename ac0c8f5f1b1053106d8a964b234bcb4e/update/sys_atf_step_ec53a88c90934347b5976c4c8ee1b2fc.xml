@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 15:11:36</sys_updated_on>
         <table/>
-        <test display_value="">91c397a2ada94c86b2bc1e6982ead3fb</test>
+        <test display_value="ESP - Svc: Prevent Completed Update (positive)">91c397a2ada94c86b2bc1e6982ead3fb</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

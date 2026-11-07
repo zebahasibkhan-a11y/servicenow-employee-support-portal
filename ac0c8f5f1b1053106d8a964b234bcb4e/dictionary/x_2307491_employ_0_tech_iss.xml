@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ef60dd15d9d24e7099b544e563420f06" label="Technical Issue" name="x_2307491_employ_0_tech_iss" type="collection">
+        <element label="Issue Type" name="issue_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bug" sequence="1" value="bug"/>
+                <element inactive_on_update="false" label="Performance" sequence="2" value="performance"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive_on_update="false" label="Integration" sequence="4" value="integration"/>
+                <element inactive_on_update="false" label="Configuration" sequence="3" value="configuration"/>
+            </choice>
+        </element>
+        <element label="Root Cause" max_length="4000" name="root_cause" type="multi_two_lines"/>
+        <element label="Description" max_length="4000" name="description" type="multi_two_lines"/>
+        <element display="true" label="Short Description" mandatory="true" max_length="200" name="short_description" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" name="number" type="string"/>
+        <element label="Assigned Technician" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Affected Component" max_length="200" name="affected_component" type="string"/>
+        <element label="Resolution" max_length="4000" name="resolution" type="multi_two_lines"/>
+        <element label="Resolved Date" name="resolved_date" type="glide_date_time"/>
+        <element default="new" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
+                <element inactive_on_update="false" label="Testing" sequence="4" value="testing"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="in_progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="5" value="resolved"/>
+                <element inactive_on_update="false" label="Investigating" sequence="2" value="investigating"/>
+            </choice>
+        </element>
+        <element label="Severity" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Major" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Cosmetic" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Minor" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Reported By" name="reported_by" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="reported_by"/>
+        </index>
+    </element>
+</database>

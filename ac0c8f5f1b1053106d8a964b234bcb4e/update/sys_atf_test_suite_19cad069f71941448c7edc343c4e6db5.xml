@@ -4,7 +4,7 @@
         <description>Tests for IT Incident business rules.</description>
         <input_filter/>
         <name>ESP - IT Incident Business Rules</name>
-        <parent display_value="">4b14439777c84c8db1ce616c3127a4f5</parent>
+        <parent display_value="ESP - Full Regression Suite">4b14439777c84c8db1ce616c3127a4f5</parent>
         <sn_atf_tg_generated>false</sn_atf_tg_generated>
         <sys_class_name>sys_atf_test_suite</sys_class_name>
         <sys_created_by>admin</sys_created_by>

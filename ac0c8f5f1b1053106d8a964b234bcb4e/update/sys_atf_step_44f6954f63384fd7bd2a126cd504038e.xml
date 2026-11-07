@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
         <table>x_2307491_employ_0_tech_iss</table>
-        <test display_value="">cdc410633a2642d5b1f6cdd669292d3b</test>
+        <test display_value="ESP - Tech: Require Root Cause (positive)">cdc410633a2642d5b1f6cdd669292d3b</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

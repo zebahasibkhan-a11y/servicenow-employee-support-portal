@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-11-07 15:11:37</sys_updated_on>
         <table/>
-        <test display_value="">f412165d121b455f8ee57de4f6396135</test>
+        <test display_value="ESP - ACL: Admin Full Access">f412165d121b455f8ee57de4f6396135</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
