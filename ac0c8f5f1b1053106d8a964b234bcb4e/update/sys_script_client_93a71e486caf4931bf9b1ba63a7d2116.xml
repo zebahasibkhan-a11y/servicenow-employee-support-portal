@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>severity</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Technical Issue - Severity Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+    if (newValue === '1') {
+        g_form.setMandatory('description', true);
+        g_form.setMandatory('affected_component', true);
+        g_form.addWarningMessage('Critical severity — please provide complete details including affected component.');
+    } else {
+        g_form.setMandatory('description', false);
+        g_form.setMandatory('affected_component', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93a71e486caf4931bf9b1ba63a7d2116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Issue - Severity Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_script_client_93a71e486caf4931bf9b1ba63a7d2116</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:12:05</sys_updated_on>
+        <table>x_2307491_employ_0_tech_iss</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
