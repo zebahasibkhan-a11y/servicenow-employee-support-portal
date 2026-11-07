@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>timeFromCreateToActivate=9000</attributes>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>fluent</generation_source>
+        <internal_name>esp__status_notification</internal_name>
+        <label_cache>[{"name":"Updated_1.current.requested_by.email","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record➛Requested By➛Email","type":"string","base_type":"string","usedInstances":{"f66517c3-e6c3-44fa-bd6a-d1c6d418424f":["condition"],"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["ah_to"]},"attributes":{}},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record➛Number","type":"string","base_type":"string","usedInstances":{"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["ah_subject"]},"attributes":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record","type":"reference","base_type":"reference","usedInstances":{"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>fbf2531f1b5053106d8a964b234bcbb2</master_snapshot>
+        <master_snapshot_digest/>
+        <name>ESP - Status Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>0c03931f1b5053106d8a964b234bcb09</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1262906e502f4d0daee724c73254f085</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ESP - Status Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_hub_flow_1262906e502f4d0daee724c73254f085</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:17</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1262906e502f4d0daee724c73254f085"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1262906e502f4d0daee724c73254f085"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_2307491_employ_0_svc_req">statusVALCHANGES<item endquery="false" field="status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c03931f1b5053106d8a964b234bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:17</sys_updated_on>
+        <table>x_2307491_employ_0_svc_req</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>1262906e502f4d0daee724c73254f085</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:17</sys_created_on>
+        <sys_id>c003931f1b5053106d8a964b234bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:17</sys_updated_on>
+        <trigger display_value="">0c03931f1b5053106d8a964b234bcb09</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1262906e502f4d0daee724c73254f085^sys_idNOT INc003931f1b5053106d8a964b234bcb0b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1262906e502f4d0daee724c73254f085"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1262906e502f4d0daee724c73254f085^sys_idNOT IN57f2531f1b5053106d8a964b234bcb49,5ff2531f1b5053106d8a964b234bcb13,5ff2531f1b5053106d8a964b234bcb53"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</model>
+        <model_id>1262906e502f4d0daee724c73254f085</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:13</sys_created_on>
+        <sys_id>57f2531f1b5053106d8a964b234bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=57f2531f1b5053106d8a964b234bcb49"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</model>
+        <model_id>1262906e502f4d0daee724c73254f085</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:13</sys_created_on>
+        <sys_id>5ff2531f1b5053106d8a964b234bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ff2531f1b5053106d8a964b234bcb13"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</model>
+        <model_id>1262906e502f4d0daee724c73254f085</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:14</sys_created_on>
+        <sys_id>5ff2531f1b5053106d8a964b234bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ff2531f1b5053106d8a964b234bcb53"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1262906e502f4d0daee724c73254f085^sys_idNOT IN36228720beaf4d2e8e318ce90801d04d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:06</sys_created_on>
+        <sys_id>36228720beaf4d2e8e318ce90801d04d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:14</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+1YbW/TMBD+K1E+gVSk8SIh9m28DCYNkNgYHxCKXPvSWrh2sS/twrT/zjmJWy9JIcDCQOxTm7Pje+7uec52Pl6kaOVsBvZIO2Saw0npjkS6n6aTVLEpKPp7yqYK6FlqBKuZOi2XQGb05kyzhR8TsAQtQGP9Kp8byeFYOnr++GmSLpgWDI0t0320BUzS3JrFKSyWiiGtlTPlyGisAJvu39/bm6TVuo0TWnDFVOGfz7MHD/ceP3pyP/MvmzLby9yKZxa+eBDS0YLl2ZC5fC6VsKBrfEtmyR967xeduFtQsCf8BjnhhnP0iRCboKLQG4sFJt5qVUZTzp38CtX7hYMsSmYzIz+Zm/U7yIEQcziUunLXDCrDmdo8MaSKTgsER7FcXm6ycihBNYV13MolHnCUq5D8y8kQJrwrdPJhDjp578AmVXk7tJgpKSBT9dhwWoRAf8SLiggRtKY4ttDZmpBllD8bvAfSdKkxjAC94X7PIfak4G+lRsrEypfZ59FrMh2LKyfgnDT+F1HqWZcxNSt+wJYLChS+FD7GKhl5KGW1GKvxkfm4ce+zmHgMubF1/Y62EwMm/8LRgs0aSpAHBRyjCuX0ZvT0WtJrFMI2DztAaaOzIcDeGH3vT+KaGpzHYAKOp2S/kiBi5i5w7jfR/Zru27JzGzatrsbWUnpj/Rm1dwm72zm2KPw/qz1XZk0kum6BM112KOs9SU0sLRNuyNk5jiYZkgfMrCm02IXi6oxxdMv45++D2M5I7gjIWaHw7k0L1WOjNhhrNI6jrdR4bKBet5TrdXurzm2q3urkRRN0Up1s3XULtULeoie1UV5YSgdWW0pIe4IBwUii9eNdLLTzRoDCgf5GNUIHhQ0XtzoJ+FsSCeaB6ugt+U7ft2KpM/fMaCGxPoW19RGG3Ch3m6Y0PAIQCEFosXBnB8fPXh28efnipMuNnhkDaBIH2+Mee+IejRfNl4FfpcWaaXQZmowJkUWIN41pYQSo51HVGi7QXrEs0KWXUU1JG5sr/5h36JEuRX1nJjrm+/OSv6+O1neNhszkvdcdmSdNcqgbTcsE50CYFO3VtHKFarztQBtf0Da05yahgcT+EXDXc+upPjZ0rz51uVsNoTb+9GeO3beelvPb/WKbvtN61nXLuNCSzBmfMz2rT0uBu4ekZmB8ntRTknrKiLrmrY8YfDxnsAJbdoL1xqRYCi+VsTwztWal67Qv6g6+UTTnRjKQJHQtghtrCWHvcmhp5qyMukHIX6sfBPPAjrCl9G6P/0oLGK74T98ASP+ZPRIZAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1262906e502f4d0daee724c73254f085^sys_idNOT IN4096a28e306c45baaa8dbafe21ba0f23"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="">c1806bf4a70323008299b39f087901cb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>f66517c3-e6c3-44fa-bd6a-d1c6d418424f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:06</sys_created_on>
+        <sys_id>4096a28e306c45baaa8dbafe21ba0f23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:15</sys_updated_on>
+        <ui_id>4096a28e-306c-45ba-aa8d-bafe21ba0f23</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FULPripfYsd52yYIGmAvRZxuHxYLgSIpiy0lKiRlxzX87x2KtC1f4MTJZuvF5sGAOSKHZ0bnzIz9ZR4UOGfBRWBwIlhcL1rBBIvKGh/iTjca9IbtmOWlkLM4ivWExIrdwybKdSnw7PNT9pZYgWfDVHAxD0jGBVWsCC6+fG0FnMLh9vA86idpDw+iLriJzjvDYdIdptH5YBi1aQ9cCJwwAVvvLFBY78NtZuVe2/vmWfTRPZCKWjztVsAeDCsoAyApFpq1ghwXFBupZiuLYph+KgQYjKpgnfHCWIcZQwarMTNIMQIekfHwMibKgxty/KD5vwD3PLLuUwYZIRZ90FjGPsnOnF5hg0cAgJhK+a0kk5ww7XJJWYorYS6bNrfhU2m4LNwRh8CdlqLKi48ulcHKwfKdgqXSAIKVNj82Yp+OdJTJ6e0S5TUv6lT6h0ISLFYrbIziSWUsnnnABMvBUZzjsuTFOC6VnPD6MGDJw7GARZgKOYVLNR8XISYWeAivA4fXYL+qzZ+x4jaKD+AGDgOLdKyJ4uUytvryYNEK9ExfCqz1OkZIbnxfWYQuYh9b7NJjj9SO3sHFE+bDWLRWQplioHGO1T/Ac8xFQy3tXVFYsjyB/lG/nyT95GzQXdN/SFI6SNI+HpBug/43BREVZeivJYy1FHaReT0kUgqGi20xALZfr+s8rcTQOVIM3uDV4EiGjETwWsQMYbSCZI0GtFAjg2/YIK6RhryH6E4i7qNqnGihmaxQXmkD2ww82ZBRuJbYd751pdve6erW085br/Zy8ocQ9msIGGexrpK/GTEN7Y6YmkC60S27rxi8/Pn8zxKgMRq3Q1IpZSlTVHnC1GKBfkEjg02lkduzK/sXenusXJzRQ92SkUa5GK0i3Re9rw8aXmQx3ioPo6XRl4b+4dLg2uJuZXAa3ex30ekq5ycXRiLprKEKO71oR06Z2sqooCo6aitP7QxrlDBWoMoxPER/QK/RDAk5hgJrK/CEs2ldhj31ly6BPPCBgk0ptyFjgSgzUKl1uCup/xPKY3rEB/WYdhp6/M0leCfjXomZycWWDn+/+/B+rcLBMxv0rgz7Z2fd/psOXzx5llPaoUqWpY+tbq+vIU83gjTUuaerLBa7ynkCgXsHCUzoxs+veh66XYLZBueJTCWp6nRzusXnK/8E3VytaR29aO58p7UkHDKhG9PelJsM5redcfFpm1cy6XY2NQIzI68JuV8rN+vHJ6AZ15SPkEw6YliR7JozYXnhZpRgW0oEyqqKtwjsx8pTaXeN/wCe0viMPCys0DcZsCWzsCbNPq0dcfLRIe/wXyK4qUm50VLqWI4Z7bpvo91JtRTKBM95TY3XaydAFEKe1S3oQWayqMHMy8sNZtYXHsPM3jcbd96o+UNRM3kmN9uHfxr3m6P4FjmTo9l59sbOn4adX/8DGR8WOCsZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4096a28e306c45baaa8dbafe21ba0f23"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1262906e502f4d0daee724c73254f085^sys_idNOT INf66517c3e6c344fabd6ad1c6d418424f"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63f2531f1b5053106d8a964b234bcb84</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:06</sys_created_on>
+        <sys_id>f66517c3e6c344fabd6ad1c6d418424f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:14</sys_updated_on>
+        <ui_id>f66517c3-e6c3-44fa-bd6a-d1c6d418424f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V0W6bMBT9lcnPEYJAWJu3Kl2kSG0zLVmlaarQxTaJNWNT27RlKP++ayBJtWbqur7uDR/7Xp9zuAdaomtX1c6u9YW1YqPI9PvdiAjlMXxuiWBkSsiIKCg5PlGtmHBCK4QeQNYea9uvFQPHWRYFtDaGKxcYfl9z67G8CXgJQu52i9XNcv3p+vP6GxYzYSsJze17etCtkAyP9qQrMMjRcUOm7W9bnYhzmBSTKJzQeJzG4zAcnyVRnsZ5NGYx8CTFhhJyLvHo7JnKE8JdU3nIOiPUZlhfDaWrPagN81TG4YjwJ8cV40iiAGn5iJSgUKw2DZk6UyNgOLClks3hxFYo1xu/5bLqn0p4suIn9z3D0NcUHBVS3u8eltlgbQ8Xl+AASdXU1WY4SrdaUG57bxgvoJZu9hzrDyyrTm9X4iCX+2ot61Ld9LaQQ4P9m0SktkiCV16zVzFIKlZb/fhlz3IuVOfPsCk1BXlYgUMX89p5Pi3hkpfYKCuhqtDbrDL6QXTFyKUMNhIXQSH1I17qZzgA6okHaDEEc8QvO/gWjPAqrrENFuNU2MxSI6q9tu5yshsR29iZBGuPGtHc7L72DHvFg7ast8eXdI0u8OIHPsjYjVriWV3pjaALZR2g7FVjF34YizSdRB9pzFMaJ0kBOUuBRTRlSXSWjJOCDENbhFBE5zQ6PbQQnxjQrAOO8XwZNvJ6WP7i3hdh+dBn4M+M3pKb6JXcDMgbgzOZ/M/Nu3PjaeZgBc26/wS28x+xfwzOYPpccMlODtOpZN356e5ZHd4GFRbL1h5b7H9ffqPB4fP5O0KP2vzwso/Y7hdKqjG1CAcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1262906e502f4d0daee724c73254f085"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_1262906e502f4d0daee724c73254f085"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:14</sys_created_on>
+        <sys_id>53f2531f1b5053106d8a964b234bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:13</sys_created_on>
+        <sys_id>57f2531f1b5053106d8a964b234bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:14</sys_created_on>
+        <sys_id>9bf2531f1b5053106d8a964b234bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1262906e502f4d0daee724c73254f085"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1262906e502f4d0daee724c73254f085"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>-1</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>esp__status_notification</internal_name>
+        <label_cache>[{"name":"Updated_1.current.requested_by.email","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record➛Requested By➛Email","type":"string","base_type":"string","usedInstances":{"f66517c3-e6c3-44fa-bd6a-d1c6d418424f":["condition"],"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["ah_to"]},"attributes":{}},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record➛Number","type":"string","base_type":"string","usedInstances":{"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["ah_subject"]},"attributes":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛x_2307491_employ_0_svc_req Record","type":"reference","base_type":"reference","usedInstances":{"4096a28e-306c-45ba-aa8d-bafe21ba0f23":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>ESP - Status Notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="ESP - Status Notification">1262906e502f4d0daee724c73254f085</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbf2531f1b5053106d8a964b234bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:15</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fbf2531f1b5053106d8a964b234bcbb2^sys_idNOT IN37f2531f1b5053106d8a964b234bcbb5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fbf2531f1b5053106d8a964b234bcbb2</id>
+        <name>ESP - Status Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:15</sys_created_on>
+        <sys_id>37f2531f1b5053106d8a964b234bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=37f2531f1b5053106d8a964b234bcbb5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fbf2531f1b5053106d8a964b234bcbb2^sys_idNOT IN37f2531f1b5053106d8a964b234bcbc6,3bf2531f1b5053106d8a964b234bcbd1,7bf2531f1b5053106d8a964b234bcbb7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</model>
+        <model_id>fbf2531f1b5053106d8a964b234bcbb2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>37f2531f1b5053106d8a964b234bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=37f2531f1b5053106d8a964b234bcbc6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</model>
+        <model_id>fbf2531f1b5053106d8a964b234bcbb2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>3bf2531f1b5053106d8a964b234bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3bf2531f1b5053106d8a964b234bcbd1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</model>
+        <model_id>fbf2531f1b5053106d8a964b234bcbb2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:15</sys_created_on>
+        <sys_id>7bf2531f1b5053106d8a964b234bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7bf2531f1b5053106d8a964b234bcbb7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fbf2531f1b5053106d8a964b234bcbb2^sys_idNOT IN8803531f1b5053106d8a964b234bcbf6"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>8803531f1b5053106d8a964b234bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+1YbW/TMBD+K1E+gVSk8SIh9m28DCYNkNgYHxCKXPvSWrh2sS/twrT/zjmJWy9JIcDCQOxTm7Pje+7uec52Pl6kaOVsBvZIO2Saw0npjkS6n6aTVLEpKPp7yqYK6FlqBKuZOi2XQGb05kyzhR8TsAQtQGP9Kp8byeFYOnr++GmSLpgWDI0t0320BUzS3JrFKSyWiiGtlTPlyGisAJvu39/bm6TVuo0TWnDFVOGfz7MHD/ceP3pyP/MvmzLby9yKZxa+eBDS0YLl2ZC5fC6VsKBrfEtmyR967xeduFtQsCf8BjnhhnP0iRCboKLQG4sFJt5qVUZTzp38CtX7hYMsSmYzIz+Zm/U7yIEQcziUunLXDCrDmdo8MaSKTgsER7FcXm6ycihBNYV13MolHnCUq5D8y8kQJrwrdPJhDjp578AmVXk7tJgpKSBT9dhwWoRAf8SLiggRtKY4ttDZmpBllD8bvAfSdKkxjAC94X7PIfak4G+lRsrEypfZ59FrMh2LKyfgnDT+F1HqWZcxNSt+wJYLChS+FD7GKhl5KGW1GKvxkfm4ce+zmHgMubF1/Y62EwMm/8LRgs0aSpAHBRyjCuX0ZvT0WtJrFMI2DztAaaOzIcDeGH3vT+KaGpzHYAKOp2S/kiBi5i5w7jfR/Zru27JzGzatrsbWUnpj/Rm1dwm72zm2KPw/qz1XZk0kum6BM112KOs9SU0sLRNuyNk5jiYZkgfMrCm02IXi6oxxdMv45++D2M5I7gjIWaHw7k0L1WOjNhhrNI6jrdR4bKBet5TrdXurzm2q3urkRRN0Up1s3XULtULeoie1UV5YSgdWW0pIe4IBwUii9eNdLLTzRoDCgf5GNUIHhQ0XtzoJ+FsSCeaB6ugt+U7ft2KpM/fMaCGxPoW19RGG3Ch3m6Y0PAIQCEFosXBnB8fPXh28efnipMuNnhkDaBIH2+Mee+IejRfNl4FfpcWaaXQZmowJkUWIN41pYQSo51HVGi7QXrEs0KWXUU1JG5sr/5h36JEuRX1nJjrm+/OSv6+O1neNhszkvdcdmSdNcqgbTcsE50CYFO3VtHKFarztQBtf0Da05yahgcT+EXDXc+upPjZ0rz51uVsNoTb+9GeO3beelvPb/WKbvtN61nXLuNCSzBmfMz2rT0uBu4ekZmB8ntRTknrKiLrmrY8YfDxnsAJbdoL1xqRYCi+VsTwztWal67Qv6g6+UTTnRjKQJHQtghtrCWHvcmhp5qyMukHIX6sfBPPAjrCl9G6P/0oLGK74T98ASP+ZPRIZAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fbf2531f1b5053106d8a964b234bcbb2^sys_idNOT IN0403531f1b5053106d8a964b234bcbe7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>f66517c3-e6c3-44fa-bd6a-d1c6d418424f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>0403531f1b5053106d8a964b234bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <ui_id>4096a28e-306c-45ba-aa8d-bafe21ba0f23</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FULPripfYsd52yYIGmAvRZxuHxYLgSIpiy0lKiRlxzX87x2KtC1f4MTJZuvF5sGAOSKHZ0bnzIz9ZR4UOGfBRWBwIlhcL1rBBIvKGh/iTjca9IbtmOWlkLM4ivWExIrdwybKdSnw7PNT9pZYgWfDVHAxD0jGBVWsCC6+fG0FnMLh9vA86idpDw+iLriJzjvDYdIdptH5YBi1aQ9cCJwwAVvvLFBY78NtZuVe2/vmWfTRPZCKWjztVsAeDCsoAyApFpq1ghwXFBupZiuLYph+KgQYjKpgnfHCWIcZQwarMTNIMQIekfHwMibKgxty/KD5vwD3PLLuUwYZIRZ90FjGPsnOnF5hg0cAgJhK+a0kk5ww7XJJWYorYS6bNrfhU2m4LNwRh8CdlqLKi48ulcHKwfKdgqXSAIKVNj82Yp+OdJTJ6e0S5TUv6lT6h0ISLFYrbIziSWUsnnnABMvBUZzjsuTFOC6VnPD6MGDJw7GARZgKOYVLNR8XISYWeAivA4fXYL+qzZ+x4jaKD+AGDgOLdKyJ4uUytvryYNEK9ExfCqz1OkZIbnxfWYQuYh9b7NJjj9SO3sHFE+bDWLRWQplioHGO1T/Ac8xFQy3tXVFYsjyB/lG/nyT95GzQXdN/SFI6SNI+HpBug/43BREVZeivJYy1FHaReT0kUgqGi20xALZfr+s8rcTQOVIM3uDV4EiGjETwWsQMYbSCZI0GtFAjg2/YIK6RhryH6E4i7qNqnGihmaxQXmkD2ww82ZBRuJbYd751pdve6erW085br/Zy8ocQ9msIGGexrpK/GTEN7Y6YmkC60S27rxi8/Pn8zxKgMRq3Q1IpZSlTVHnC1GKBfkEjg02lkduzK/sXenusXJzRQ92SkUa5GK0i3Re9rw8aXmQx3ioPo6XRl4b+4dLg2uJuZXAa3ex30ekq5ycXRiLprKEKO71oR06Z2sqooCo6aitP7QxrlDBWoMoxPER/QK/RDAk5hgJrK/CEs2ldhj31ly6BPPCBgk0ptyFjgSgzUKl1uCup/xPKY3rEB/WYdhp6/M0leCfjXomZycWWDn+/+/B+rcLBMxv0rgz7Z2fd/psOXzx5llPaoUqWpY+tbq+vIU83gjTUuaerLBa7ynkCgXsHCUzoxs+veh66XYLZBueJTCWp6nRzusXnK/8E3VytaR29aO58p7UkHDKhG9PelJsM5redcfFpm1cy6XY2NQIzI68JuV8rN+vHJ6AZ15SPkEw6YliR7JozYXnhZpRgW0oEyqqKtwjsx8pTaXeN/wCe0viMPCys0DcZsCWzsCbNPq0dcfLRIe/wXyK4qUm50VLqWI4Z7bpvo91JtRTKBM95TY3XaydAFEKe1S3oQWayqMHMy8sNZtYXHsPM3jcbd96o+UNRM3kmN9uHfxr3m6P4FjmTo9l59sbOn4adX/8DGR8WOCsZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0403531f1b5053106d8a964b234bcbe7"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fbf2531f1b5053106d8a964b234bcbb2^sys_idNOT IN4803531f1b5053106d8a964b234bcbe4"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63f2531f1b5053106d8a964b234bcb84</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="ESP - Status Notification">fbf2531f1b5053106d8a964b234bcbb2</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>4803531f1b5053106d8a964b234bcbe4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <ui_id>f66517c3-e6c3-44fa-bd6a-d1c6d418424f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V0W6bMBT9lcnPEYJAWJu3Kl2kSG0zLVmlaarQxTaJNWNT27RlKP++ayBJtWbqur7uDR/7Xp9zuAdaomtX1c6u9YW1YqPI9PvdiAjlMXxuiWBkSsiIKCg5PlGtmHBCK4QeQNYea9uvFQPHWRYFtDaGKxcYfl9z67G8CXgJQu52i9XNcv3p+vP6GxYzYSsJze17etCtkAyP9qQrMMjRcUOm7W9bnYhzmBSTKJzQeJzG4zAcnyVRnsZ5NGYx8CTFhhJyLvHo7JnKE8JdU3nIOiPUZlhfDaWrPagN81TG4YjwJ8cV40iiAGn5iJSgUKw2DZk6UyNgOLClks3hxFYo1xu/5bLqn0p4suIn9z3D0NcUHBVS3u8eltlgbQ8Xl+AASdXU1WY4SrdaUG57bxgvoJZu9hzrDyyrTm9X4iCX+2ot61Ld9LaQQ4P9m0SktkiCV16zVzFIKlZb/fhlz3IuVOfPsCk1BXlYgUMX89p5Pi3hkpfYKCuhqtDbrDL6QXTFyKUMNhIXQSH1I17qZzgA6okHaDEEc8QvO/gWjPAqrrENFuNU2MxSI6q9tu5yshsR29iZBGuPGtHc7L72DHvFg7ast8eXdI0u8OIHPsjYjVriWV3pjaALZR2g7FVjF34YizSdRB9pzFMaJ0kBOUuBRTRlSXSWjJOCDENbhFBE5zQ6PbQQnxjQrAOO8XwZNvJ6WP7i3hdh+dBn4M+M3pKb6JXcDMgbgzOZ/M/Nu3PjaeZgBc26/wS28x+xfwzOYPpccMlODtOpZN356e5ZHd4GFRbL1h5b7H9ffqPB4fP5O0KP2vzwso/Y7hdKqjG1CAcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:15</sys_created_on>
+        <sys_id>73f2531f1b5053106d8a964b234bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>73f2531f1b5053106d8a964b234bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:16</sys_created_on>
+        <sys_id>77f2531f1b5053106d8a964b234bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fbf2531f1b5053106d8a964b234bcbb2"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>1262906e502f4d0daee724c73254f085</sys_id>
+        <latest_snapshot>fbf2531f1b5053106d8a964b234bcbb2</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1262906e502f4d0daee724c73254f085^sys_idNOT IN4403931f1b5053106d8a964b234bcb0c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan/>
+        <plan_id>1262906e502f4d0daee724c73254f085</plan_id>
+        <snapshot>fbf2531f1b5053106d8a964b234bcbb2</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 13:21:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4403931f1b5053106d8a964b234bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 13:21:17</sys_updated_on>
+        <trigger display_value="">0c03931f1b5053106d8a964b234bcb09</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1262906e502f4d0daee724c73254f085"/>
+</record_update>
