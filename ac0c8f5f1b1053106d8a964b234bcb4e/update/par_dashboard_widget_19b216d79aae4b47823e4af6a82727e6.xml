@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">2873d5c811904736a4a32d8f4f7dce8b</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"showBorder":true,"showHeader":true,"headerTitle":"Requests by Status","showDataLabels":true,"dataSources":[{"id":"ds_1","sourceType":"table","tableOrViewName":"x_2307491_employ_0_svc_req","filterQuery":""}],"groupBy":[{"groupBy":[{"dataSource":"ds_1","groupByField":"status","isChoice":true}]}],"metrics":[{"dataSource":"ds_1","aggregateFunction":"COUNT","axisId":"primary"}]}</component_props>
+        <h>16</h>
+        <name/>
+        <required_translations/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:20:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19b216d79aae4b47823e4af6a82727e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>par_dashboard_widget_19b216d79aae4b47823e4af6a82727e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:20:27</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>10</y>
+    </par_dashboard_widget>
+</record_update>

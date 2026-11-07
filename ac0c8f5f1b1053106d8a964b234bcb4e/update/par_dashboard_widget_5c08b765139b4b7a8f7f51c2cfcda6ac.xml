@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">7efeb847b6604d899a33a9443287ced3</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"showBorder":true,"showHeader":true,"headerTitle":"Open Service Requests","showZero":true,"dataSources":[{"id":"ds_1","sourceType":"table","tableOrViewName":"x_2307491_employ_0_svc_req","filterQuery":"statusNOT INcompleted,cancelled"}],"metrics":[{"dataSource":"ds_1","aggregateFunction":"COUNT","axisId":"primary"}]}</component_props>
+        <h>7</h>
+        <name/>
+        <required_translations/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:20:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c08b765139b4b7a8f7f51c2cfcda6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>par_dashboard_widget_5c08b765139b4b7a8f7f51c2cfcda6ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:20:27</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>12</x>
+        <y>3</y>
+    </par_dashboard_widget>
+</record_update>
