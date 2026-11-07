@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>3fe71528a6d447efa81dc9b744c8a788</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_atf_step_3fe71528a6d447efa81dc9b744c8a788</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <table/>
+        <test display_value="">244e04b28b1342f383d80616b3557d76</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3fe71528a6d447efa81dc9b744c8a788"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>01db395196df4a9da00a4c49a4f77274</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value/>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>56cae36d47ac41cc90b65e083025900d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value>Tester</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>8b92bdad74214a43af549be4f7ac604b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>930b198efa474783963bdc805f93a729</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>9cb081c3be68459988102060ba27f78a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value>SvcT4</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>b6cd55b1532e4b19bb9233fea297fc43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value>fc2c8d631cce4444b48900d6ed6388ba</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3fe71528a6d447efa81dc9b744c8a788</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:28</sys_created_on>
+        <sys_id>f91d7c0d04a3443cab9a7e51aac203a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=3fe71528a6d447efa81dc9b744c8a788"/>
+</record_update>

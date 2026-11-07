@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Inserts a Service Request with explicit requested_by and priority=1 and validates the BR does not overwrite them.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>ESP - Svc: Auto Set Requester (negative)</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:39</sys_created_on>
+        <sys_id>702708d1bbc34f89ae162e0bcbda9d0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESP - Svc: Auto Set Requester (negative)</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_atf_test_702708d1bbc34f89ae162e0bcbda9d0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:39</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=702708d1bbc34f89ae162e0bcbda9d0e"/>
+</record_update>

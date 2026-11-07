@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">2873d5c811904736a4a32d8f4f7dce8b</canvas>
         <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
-        <component_props>{"showBorder":true,"showHeader":true,"headerTitle":"Requests by Status","showDataLabels":true,"dataSources":[{"id":"ds_1","sourceType":"table","tableOrViewName":"x_2307491_employ_0_svc_req","filterQuery":""}],"groupBy":[{"groupBy":[{"dataSource":"ds_1","groupByField":"status"}]}],"metrics":[{"dataSource":"ds_1","aggregateFunction":"COUNT","axisId":"primary"}]}</component_props>
+        <component_props>{"showBorder":true,"showHeader":true,"headerTitle":"Requests by Status","showDataLabels":true,"dataSources":[{"id":"ds_1","sourceType":"table","tableOrViewName":"x_2307491_employ_0_svc_req","filterQuery":""}],"groupBy":[{"groupBy":[{"dataSource":"ds_1","groupByField":"status","isChoice":true}]}],"metrics":[{"dataSource":"ds_1","aggregateFunction":"COUNT","axisId":"primary"}]}</component_props>
         <h>16</h>
         <name/>
         <required_translations/>

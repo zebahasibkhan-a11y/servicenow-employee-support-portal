@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Master test suite for Employee Service Portal regression testing.</description>
+        <input_filter/>
+        <name>ESP - Full Regression Suite</name>
+        <parent/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:40</sys_created_on>
+        <sys_id>4b14439777c84c8db1ce616c3127a4f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESP - Full Regression Suite</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_atf_test_suite_4b14439777c84c8db1ce616c3127a4f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:40</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

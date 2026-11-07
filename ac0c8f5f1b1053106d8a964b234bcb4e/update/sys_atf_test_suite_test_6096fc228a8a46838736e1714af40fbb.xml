@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>5</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 15:11:41</sys_created_on>
+        <sys_id>6096fc228a8a46838736e1714af40fbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_svc_prevent_completed_pos</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_6096fc228a8a46838736e1714af40fbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 15:11:41</sys_updated_on>
+        <test display_value="">test_svc_prevent_completed_pos</test>
+        <test_suite display_value="ESP - Service Request Business Rules">537b2a7c71fc4299b2a6a30c2e6debaf</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
