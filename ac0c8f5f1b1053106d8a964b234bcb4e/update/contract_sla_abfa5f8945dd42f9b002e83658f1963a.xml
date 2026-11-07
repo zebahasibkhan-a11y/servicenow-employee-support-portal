@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition table="x_2307491_employ_0_it_inc">status=closed<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="closed"/>
+        </cancel_condition>
+        <collection>x_2307491_employ_0_it_inc</collection>
+        <condition_class/>
+        <duration>1970-01-01 08:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>ESP - P3 Incident Response</name>
+        <pause_condition table="x_2307491_employ_0_it_inc">status=on_hold<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="on_hold"/>
+        </pause_condition>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="">38fa64edc0a8016400f4a5724b0434b8</schedule>
+        <schedule_source>no_schedule</schedule_source>
+        <schedule_source_field/>
+        <set_start_to/>
+        <start_condition table="x_2307491_employ_0_it_inc">priority=3<item endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="3"/>
+        </start_condition>
+        <stop_condition table="x_2307491_employ_0_it_inc">statusNOT INnew<item endquery="false" field="status" goto="false" newquery="false" operator="NOT IN" or="false" value="new"/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:39:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abfa5f8945dd42f9b002e83658f1963a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESP - P3 Incident Response</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>contract_sla_abfa5f8945dd42f9b002e83658f1963a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:39:12</sys_updated_on>
+        <target>response</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>no_match</when_to_resume>
+        <workflow/>
+    </contract_sla>
+    <sys_translated_text action="delete_multiple" query="documentkey=abfa5f8945dd42f9b002e83658f1963a"/>
+</record_update>
