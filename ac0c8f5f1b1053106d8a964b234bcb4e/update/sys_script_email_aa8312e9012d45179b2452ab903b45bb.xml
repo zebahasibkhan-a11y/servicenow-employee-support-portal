@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ESP Generate Record Link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+      /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+      /* Optional GlideRecord */ event) {
+      var instanceUrl = gs.getProperty('glide.servlet.uri');
+      var recordUrl = instanceUrl + '/' + current.getTableName() + '.do?sys_id=' + current.sys_id;
+      template.print(recordUrl);
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:28:38</sys_created_on>
+        <sys_id>aa8312e9012d45179b2452ab903b45bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESP Generate Record Link</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_script_email_aa8312e9012d45179b2452ab903b45bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:28:38</sys_updated_on>
+    </sys_script_email>
+</record_update>
