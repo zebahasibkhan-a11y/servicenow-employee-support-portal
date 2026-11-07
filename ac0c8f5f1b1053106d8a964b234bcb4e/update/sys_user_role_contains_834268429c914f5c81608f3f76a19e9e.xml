@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_2307491_employ_0.employee" name="x_2307491_employ_0.employee">800cf4f6bfac438ca8935a7011c8638d</contains>
+        <role display_value="x_2307491_employ_0.fulfiller" name="x_2307491_employ_0.fulfiller">22b93a8cb0ac4805bd377fa3139063b1</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:04:03</sys_created_on>
+        <sys_id>834268429c914f5c81608f3f76a19e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2307491_employ_0.employee.x_2307491_employ_0.fulfiller</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_user_role_contains_834268429c914f5c81608f3f76a19e9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:04:03</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>IT support role - can manage IT incidents and technical issues</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2307491_employ_0.it</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>it</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:04:02</sys_created_on>
+        <sys_id>5358c21b637a456b9f8f99503326458a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2307491_employ_0.it</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_update_name>sys_user_role_5358c21b637a456b9f8f99503326458a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:04:02</sys_updated_on>
+    </sys_user_role>
+</record_update>

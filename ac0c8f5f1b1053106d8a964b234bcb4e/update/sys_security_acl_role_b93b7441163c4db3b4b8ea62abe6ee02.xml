@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 14:03:58</sys_created_on>
+        <sys_id>b93b7441163c4db3b4b8ea62abe6ee02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2307491_employ_0_tech_iss.resolution.x_2307491_employ_0.it</sys_name>
+        <sys_package display_value="Employee Service Portal" source="x_2307491_employ_0">ac0c8f5f1b1053106d8a964b234bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Service Portal">ac0c8f5f1b1053106d8a964b234bcb4e</sys_scope>
+        <sys_security_acl display_value="x_2307491_employ_0_tech_iss.resolution">31ded266e16645159134ff35b2faaa78</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b93b7441163c4db3b4b8ea62abe6ee02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 14:03:58</sys_updated_on>
+        <sys_user_role display_value="">5358c21b637a456b9f8f99503326458a</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
